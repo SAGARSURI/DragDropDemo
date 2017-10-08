@@ -1,0 +1,250 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/gridLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/kolamShapesLayout"
+        android:layout_centerInParent="true"
+        android:paddingBottom="70dp"
+        android:paddingEnd="20dp"
+        android:paddingStart="20dp"
+        android:paddingTop="70dp">
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/row0col0"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:background="@drawable/layout_background"-->
+            <!--android:orientation="horizontal"-->
+            <!--app:layout_columnWeight="1"-->
+            <!--app:layout_gravity="fill_horizontal"-->
+            <!--app:layout_rowWeight="1">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:adjustViewBounds="true"-->
+                <!--android:scaleType="fitXY" />-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/row0col1"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:background="@drawable/layout_background"-->
+            <!--android:orientation="horizontal"-->
+            <!--app:layout_columnWeight="1"-->
+            <!--app:layout_gravity="fill_horizontal"-->
+            <!--app:layout_rowWeight="1">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:adjustViewBounds="true"-->
+                <!--android:scaleType="fitXY" />-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/row0col2"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:background="@drawable/layout_background"-->
+            <!--android:orientation="horizontal"-->
+            <!--app:layout_columnWeight="1"-->
+            <!--app:layout_gravity="fill_horizontal"-->
+            <!--app:layout_rowWeight="1">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:adjustViewBounds="true"-->
+                <!--android:scaleType="fitXY" />-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/row1col0"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:adjustViewBounds="true"-->
+            <!--android:background="@drawable/layout_background"-->
+            <!--android:orientation="horizontal"-->
+            <!--app:layout_columnWeight="1"-->
+            <!--app:layout_gravity="fill_horizontal"-->
+            <!--app:layout_rowWeight="1">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:adjustViewBounds="true"-->
+                <!--android:scaleType="fitXY" />-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/row1col1"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:background="@drawable/layout_background"-->
+            <!--android:orientation="horizontal"-->
+            <!--app:layout_columnWeight="1"-->
+            <!--app:layout_gravity="fill_horizontal"-->
+            <!--app:layout_rowWeight="1">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:adjustViewBounds="true"-->
+                <!--android:scaleType="fitXY" />-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/row1col2"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:background="@drawable/layout_background"-->
+            <!--android:orientation="horizontal"-->
+            <!--app:layout_columnWeight="1"-->
+            <!--app:layout_gravity="fill_horizontal"-->
+            <!--app:layout_rowWeight="1">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:adjustViewBounds="true"-->
+                <!--android:scaleType="fitXY" />-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/row2col0"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:background="@drawable/layout_background"-->
+            <!--android:orientation="horizontal"-->
+            <!--app:layout_columnWeight="1"-->
+            <!--app:layout_gravity="fill_horizontal"-->
+            <!--app:layout_rowWeight="1">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:adjustViewBounds="true"-->
+                <!--android:scaleType="fitXY" />-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/row2col1"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:background="@drawable/layout_background"-->
+            <!--android:orientation="horizontal"-->
+            <!--app:layout_columnWeight="1"-->
+            <!--app:layout_gravity="fill_horizontal"-->
+            <!--app:layout_rowWeight="1">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:adjustViewBounds="true"-->
+                <!--android:scaleType="fitXY" />-->
+
+        <!--</LinearLayout>-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/row2col2"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="0dp"-->
+            <!--android:background="@drawable/layout_background"-->
+            <!--android:orientation="horizontal"-->
+            <!--app:layout_columnWeight="1"-->
+            <!--app:layout_gravity="fill_horizontal"-->
+            <!--app:layout_rowWeight="1">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:adjustViewBounds="true"-->
+                <!--android:scaleType="fitXY" />-->
+
+        <!--</LinearLayout>-->
+
+    </android.support.v7.widget.GridLayout>
+
+    <android.support.v7.widget.GridLayout
+        android:id="@+id/kolamShapesLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:columnCount="5"
+        app:rowCount="1">
+
+        <ImageView
+            android:id="@+id/a0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/a0"
+            android:scaleType="fitXY"
+            android:src="@drawable/a0"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill_horizontal" />
+
+        <ImageView
+            android:id="@+id/c0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/c0"
+            android:scaleType="fitXY"
+            android:src="@drawable/c0"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill_horizontal" />
+
+        <ImageView
+            android:id="@+id/e0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/e0"
+            android:scaleType="fitXY"
+            android:src="@drawable/e0"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill_horizontal" />
+
+        <ImageView
+            android:id="@+id/d0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/d0"
+            android:scaleType="fitXY"
+            android:src="@drawable/d0"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill_horizontal" />
+
+        <ImageView
+            android:id="@+id/b0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/b0"
+            android:scaleType="fitXY"
+            android:src="@drawable/b0"
+            app:layout_columnWeight="1"
+            app:layout_gravity="fill_horizontal" />
+
+    </android.support.v7.widget.GridLayout>
+
+</RelativeLayout>
